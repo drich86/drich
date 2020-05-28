@@ -1,0 +1,519 @@
+<!DOCTIPE html>
+
+<html lang="en">
+
+
+        <head>
+
+          <title>sam and liam</title>
+
+          <meta charset="utf-8"/>
+
+          <meta name="description" content="my name is majid and 36 old years"/>
+
+          <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+
+
+
+
+          <style> 
+          	body, html{
+          		padding: 0;
+          		margin: 0;
+          	}
+
+               html { 
+                   background-color: #fafafa;
+                   font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+                   padding-top: 50px;
+
+          		} 
+
+          		a {
+          			color: #222222;
+          		}
+          		
+          		#mainHeader{
+          			background: #ffffff;
+           			padding: 5px;
+           			box-shadow: 0 4px 2px -2px rgba(0,0,0,.05);
+           			position: fixed;
+           			top: 0;
+           			left: 0;
+           			right: 0;
+           			z-index: 100;
+
+          		}
+
+          		#mainHeader h1 {
+          			font-size: 20px;
+          			margin: 0;
+          			margin-right: 20px;
+          			float: left;
+          		}
+
+          		#mainHeader nav ul {
+          			list-style: none;
+          			padding: 0;
+          			margin: 0;
+
+          		}	
+
+
+          		#mainHeader nav ul li {
+          			float: left;
+          			margin-left: 20px;
+          		}
+
+          			#mainHeader nav ul li a {
+          				 padding: 10px;
+          				 display: block;
+          			     text-decoration: none;
+          			     border: 1px solid transparent;
+          		}
+
+          			#mainHeader nav ul li a:hover {
+          			background: #f7f7f7;
+          			border: 1px solid #e1e1e1;
+          			border-radius: 5px;
+          		}
+
+          		    .clearfix:after {
+                     visibility: hidden;
+                     display: block;
+                     font-size: 0;
+                     content: " ";
+                     clear: both;
+                     height: 0;
+                }
+
+                #featuredArticle{
+
+
+
+                }
+
+                #featuredArticle h2, featuredArticle h3 {
+                	margin: 5px 0;
+
+                }
+
+                #featuredArticle figure {
+                	float: left;
+                }
+
+                #featuredArticle figure img {
+                	width: 140px;
+                	margin: 0;
+                	margin: 0 20px 0 0;
+
+
+                }
+
+                #featuredArticle p {
+                	overflow: hidden;
+                }
+
+
+                .container {
+                	width: 960px;
+                	margin: 0 auto;
+
+                }
+
+                .card {
+                	background: #ffffff;
+                	padding: 15px;
+                	border-radius: 5px;
+                	border: 1px solid #e1e1e1;
+                	margin-top: 20px;
+                }
+
+                .test {
+                	position: 
+                }
+
+                .postList {
+                	list-style: none;
+                	padding: 0;
+                	margin: 0;
+                	
+
+                }
+
+                .postList article {
+                	position: relative;
+                	padding-left: 200px;
+
+                }
+
+                .postList article footer {
+                	position: absolute;
+                	left: 0;
+                	top: 5px;
+                	width: 200px;
+
+
+                }
+
+                .postList figure img {
+                	max-width: 100%;
+                }
+
+                .postList time {
+                	color: #888;
+                	padding-bottom: 5px;
+                	display: block;
+                
+                }
+
+                .postList li {
+                	border-bottom: 1px solid #e1e1e1;
+                	margin-bottom: 25px;
+                	padding-bottom: 25px;
+                }
+
+                  .postList li:last-child {
+                	border-bottom: 0;
+                	margin-bottom: 0;
+                	padding-bottom: 0;
+                }
+
+                #footerLinks {
+                	margin-top: 40px;
+                	background: #ffffff;
+                	border-top: 1px solid #e1e1e1;
+                	border-bottom: 1px solid #e1e1e1;
+                	padding: 20px 0;
+
+                }
+
+                #footerLinks .column {
+                	width: 50%;
+                	float: left;
+                }
+
+                #footerLinks ul {
+                	padding: 0;
+                	margin: 0;
+                	list-style: none;
+
+                }
+
+
+                #footerLinks ul li {
+                	padding: 5px 10px;
+                	
+                }
+
+
+                #footerLinks h3 {
+                
+                	margin: 5px 10px;
+                	padding-bottom: 10px;
+                	border-bottom: 1px solid #e1e1e1;
+                }
+
+                #footerLinks a {
+                	color: #111111;
+                	text-decoration: none;
+                }
+
+                .socialLinks {
+                	background: left center no-repeat;
+                	padding-left: 24px;
+
+                }
+
+                .socialLinks.twitter {
+                	background-image: url(image/twitter.png);
+                }
+
+                .socialLinks.instagram {
+                	background-image: url(image/instagram.png);
+                }
+
+                .socialLinks.facebook {
+                	background-image: url(image/facebook.png);
+                }
+
+
+                body > footer {
+                	padding: 19px 0;
+                }
+
+                body > footer span {
+                	float: left;
+                	margin-right: 20px;
+                }
+
+                body > footer ul {
+                	padding: 0;
+                	margin: 0;
+                	list-style: none;
+                }
+                body > footer ul li {
+                	float: left;
+                	margin-right: 10px;
+                }
+
+                body > footer ul li::after {
+                	content: "-";
+                	margin-left: 10px;
+                	color: #888;
+                }
+
+                body > footer ul li:last-child::after {
+                	content: "";
+                }
+
+                form div {
+                	margin-bottom: 10px;
+                }
+
+                form label {
+                	display: block;
+                	margin-bottom: 5px;
+                }
+
+                form input, form button, form textarea {
+                	border: 1px solid #d1d1d1;
+                	border-radius: 5px;
+                	padding: 7px;
+                	background: #f7f7f7;
+                }
+
+                form input:focus, form button:focus, form textarea:focus {
+                	background: #fff;
+                }
+
+                form fieldset {
+                	padding: 10px;
+                	margin-bottom: 20px;
+                	border: 1px solid #e1e1e1;
+                }
+
+                form legend {
+                	font-weight: bold;
+                }
+
+          </style>
+
+        </head>
+
+            <body>
+
+            	<header id="mainHeader" class="clearfix">
+            		<div class="container">
+            			
+            	      <h1>majid homepage</h1>
+            	       <nav>
+            		     <ul>
+            			  <li><a href="index2.html">Home</a></li>
+            			  <li><a href="blog.html">Blog</a></li>
+            			  <li><a href="about.html">About</a></li>
+            		     </ul>
+            	       </nav>
+                     </div>
+            	</header>
+
+            	<div class="container">
+            	<aside id="featuredArticle" class="clearfix card">
+
+
+
+            		<figure>
+            			<img src="https://res.cloudinary.com/demo/image/upload/h_250/boat_lake2.jpg">
+            			<!-- <figcaption>A picture of sam</figcaption> -->
+            		</figure>
+            		<header>
+            			 <h2>Featured Article</h2>
+            			 <h3><a href="featured.htmi">Baby majid Picture</a></h3>
+
+            		</header>
+
+            		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+            	</aside>
+
+                	<main class="card">
+            		 <ol class="postList">
+            			 <article>
+            			 	<header>
+            			 	  <footer>
+            			 	  	    <time datetime="2020-05-1T00:23+1:00">may 10, 2020- 12:23</time>
+            			 	  	    <address>
+            			 	  	    	  By <a href="majid.html">majid niknejad</a>
+            			 	  	    </address>
+
+            			 	  </footer>
+            			 	  <h2><a href="post1.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            			 	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            			 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            			 	  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            			 	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            			 	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</a></h2> 
+
+            			 	  </header>   
+            			 	    <div>
+            			 	    	<p>Rifle face forwards paranoid monofilament network 8-bit post-rain. Physical claymore mine military-grade office pre-tattoo man dissident saturation point. Range-rover otaku girl 8-bit wonton soup beef noodles footage order-flow woman marketing. Car sensory Shibuya augmented reality fluidity stimulate face forwards. Range-rover engine gang human into RAF dead augmented reality. Neon drugs realism silent vinyl pistol smart-tattoo nodality nano-camera gang. Drone otaku tank-traps bomb franchise sensory singularity render-farm math-tiger-team wristwatch dead refrigerator futurity shanty town marketing. Network 8-bit RAF math-ablative bridge spook j-pop apophenia tank-traps euro-pop industrial grade. </p>
+            			 	    </div>
+
+            			 </article>
+            		</ol>
+
+            	</main>
+                </div>
+
+                <div class="container">
+                <section id="content-form" class="card">
+                  <form method="post" action="index2.html">
+                  	<fieldset>
+                  		<legend>Basic Info</legend>
+                	<div>
+                		<label for="username">Username</label>
+                		<input id="username" type="text" name="username" placeholder="e.g. John" required />
+                	</div>
+
+                     <div>
+                     	<label>Password</label>
+                		<input type="password" name="password" />
+                	</div>
+
+                	<div>
+                        <label>Gender</label>
+                	    <label>
+                		<input type="radio" name="gender" checked value="m" />
+                		</label> Male
+
+                		<label>
+                		<input type="radio" name="gender" value="f" />
+                		</label> Female
+
+                	</div>
+
+                	<div>
+                		<label>
+                			<input type="checkbox" name="skills" value="programing" checked /> Programing
+                		</label>
+                		<label>
+                			<input type="checkbox" name="skills" value="chess" checked /> Chess
+                		</label>
+                		<label>
+                			<input type="checkbox" name="skills" value="Dancing" /> Dancing
+                		</label>
+                	</div>
+
+                	<div>
+                		<label>City</label>
+                		<select name="city" id="city">
+                			<option value="">(Select City)</option>
+                			<option value="Tehran">Tehran</option>
+                			<option value="Isfahan">Isfahan</option>
+                			<option value="Shiraz">Shiraz</option>
+                		
+                		</select>
+                	</div>
+                	</fieldset>
+
+                     <fieldset>
+                     	<legend>More Info</legend>
+                	<div>
+                		<label>Bio</label>
+                		<textarea name="bio" id="bio" cols="30" rows="10"></textarea>	
+                		
+                	</div>
+
+                	<div>
+                		<label>Photo</label>
+                		<input type="file" name="photo" />
+                	</div>
+
+                	<div>
+                		<label>Email</label>
+                		<input type="email" name="email" />
+                	</div>
+
+                	<div>
+                		<label>Search</label>
+                		<input type="search" name="search" />
+                	</div>
+
+                	</fieldset>
+
+                	<div>
+                	
+                		<input type="submit" name="Register" />
+                		<input type="reset" name="Reset Form" />
+                	</div>
+                 </form>
+               </section>
+                	
+
+                </div>
+
+            	<section id="footerLinks" class="clearfix">
+            		<div class="container">
+            		<div class="column">
+            			<h3>Browse</h3>
+            				<ul>
+            					<li><a href="#">Range-rover otaku girl 8-bit wonton soup beef noodles footage order-flow woman marketing. Car sensory Shibuya augmented reality fluidity stimulate face forwards.</a></li>
+            					<li><a href="#">Rifle face forwards paranoid monofilament network 8-bit post-rain. Physical claymore mine military-grade office pre-tattoo man dissident saturation point.</a></li>
+            					<li><a href="#">Drone otaku tank-traps bomb franchise sensory singularity render-farm math-tiger-team wristwatch dead refrigerator futurity shanty town marketing. Network 8-bit RAF math-ablative bridge spook j-pop apophenia tank-traps euro-pop industrial grade.</a></li>
+            					
+            				</ul>
+
+            			
+            			
+            		</div>
+            		
+            		<div class="column">
+            			<h3>Social</h3>
+
+            		<ul>
+            			<li><a class="socialLinks twitter" rel="external" href="https://twitter.com/niknejad"></a>Twitter</li>
+            			<li><a class="socialLinks facebook" rel="external" href="https://facebook.com/niknejad"></a>Facebook</li>
+            			<li><a class="socialLinks instgram" rel="external" href="https://instgram.com/niknejad"></a>Instgram</li>
+            		</ul>
+            			
+            		</div>
+            	</div>
+            	</section>
+
+                 <footer class="clearfix">
+                 	<div class="container">
+                 	  <span>&copy; Majid Niknejad</span>
+                 	  <ul>
+                 	  	<li><a href="privacy.html">Privacy Policy</a></li>
+                 	  	<li><a href="terms.html">Terms of Service</a></li>
+                 	  	<li><a href="mailto:drich86@yahoo.com">Support</a></li>
+
+
+                 	  </ul>
+                 	  	
+
+                 	 </div>
+
+                 </footer>
+
+                <script type="text/javascript">
+                	
+                </script>
+
+            </body>
+
+
+
+
+
+</html>
+ 
+
+
+
